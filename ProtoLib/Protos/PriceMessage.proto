@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+package my.rtm;
+
+enum Side {
+    Ask = 0;
+    Bid = 1;
+}
+
+message BboMsg {
+    int32 SeqNumber = 1;
+    string Symbol = 2;
+    Side Side = 3;
+    double Prc = 4;
+    double Qty = 5;
+}

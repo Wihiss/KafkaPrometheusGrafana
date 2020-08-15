@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestKafkaConsumer": {
+      "commandName": "Project",
+      "commandLineArgs": "2"
+    }
+  }
+}
